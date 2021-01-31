@@ -1,0 +1,23 @@
+.box {
+    width: 700px;
+    height: 600px;
+    margin:auto;
+    /* background-color: dodgerblue; */
+    position: relative;
+    margin-top: 150px;
+    box-sizing: border-box;
+    border-style: solid;
+    border-radius: 7%;
+    
+}
+.grid {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin-top: 50px;
+}
+
+* {
+    box-sizing: border-box;
+}

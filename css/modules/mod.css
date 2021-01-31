@@ -1,0 +1,30 @@
+.title {
+    font-family: Helvetica, sans-serif;
+    border-radius: 30px;
+    text-align: center;
+
+    position: relative;
+    top: 20px;
+    margin-left: 50px;
+    margin:auto;
+
+}
+
+a {
+    font-size: 22px;
+    font-family: Helvetica, sans-serif;
+    text-decoration: none;
+}
+a:hover {
+    font-weight:520;
+}
+ul {
+    list-style-type: none;
+
+}
+li {
+
+    position: relative;
+    margin-left: 15px;
+
+}
