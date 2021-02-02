@@ -1,16 +1,16 @@
 import Link from 'next/link';
 import Head from 'next/head';
-import RNavBar from '../Components/RNavBar'
+import RNavBar from '../Components/RNavBar';
 
 export default function Home() {
     return (<div>
     <Head><meta name="viewport" content="width=device-width"/></Head>
 
     <div class="box">
-        <h1 className="title">Contatos</h1>
+        <h1 className="title">Profissional</h1>
 
         <div class="grid">
-            
+
                 <Link href="#">
                     <a class="card">Linkedin</a>
                 </Link>
@@ -29,6 +29,6 @@ export default function Home() {
 
         </div>
     </div>
-        </div>)
+</div>)
 
 }
