@@ -1,7 +1,6 @@
 {
   "name": "website-prototype",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "next dev"
@@ -22,11 +21,15 @@
     "url-loader": "^4.1.1"
   },
   "dependencies": {
+    "autoprefixer": "^10.2.4",
     "next": "^10.0.6",
     "next-images": "^1.7.0",
     "next-optimized-images": "^2.6.2",
+    "postcss": "^8.2.4",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "tailwindcss": "^2.0.2",
     "webpack": "^5.19.0"
-  }
+  },
+  "description": ""
 }

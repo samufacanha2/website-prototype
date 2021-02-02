@@ -1,12 +1,12 @@
-.title {
-    color: #333333;
-    text-shadow: 0px -1px 0px white;
-    background-color: rgb(245, 245, 245);
+.title span {
+  text-shadow: 0px -1px 0px white;
+  background-color: rgb(255, 255, 255);
+  width: 500px;
+  display: block;
+
+  border: #eaeaea 0.8px solid;
 }
 
 a {
-    color: #666;
-}
-a:hover {
-    color: black;
+  color: #666;
 }
