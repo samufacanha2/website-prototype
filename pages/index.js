@@ -8,9 +8,11 @@ export default function Page(){
    return <body>
    <div id="__next">
        <div class="container">
-           <h1 class= 'title'>Olá, eu sou <br/><span class='title'>Samuel Façanha</span></h1>
-           <p class="description">E essa é minha página pessoal feita em Next.js!</p>
-           
+           <header>
+               <h1 class= 'title'>Olá, eu sou <br/><span class='title'>Samuel Façanha</span></h1>
+               <p class="description">E essa é minha página pessoal feita em Next.js!</p>
+           </header>
+
            <img src='/images/perfil.jpg' class='avatar' />
            <div id="GridM">
                <Link href="/projetos">
