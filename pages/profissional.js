@@ -7,13 +7,9 @@ export default function Home() {
     <Head><meta name="viewport" content="width=device-width"/></Head>
 
     <div class="box">
-        <h1 className="title">Profissional</h1>
+        <h1 className="title">Profissional (incompleta)</h1>
 
         <div class="grid">
-
-                <Link href="#">
-                    <a class="card">Linkedin</a>
-                </Link>
 
                 <Link href="#">
                     <a class="card">Curriculo</a>

@@ -10,21 +10,43 @@ export default function Home() {
 
         <div className="grid">
 
-            <Link href="#">
+            {/* <Link href="#">
                 <a class="card">Projeto 1</a>
             </Link>
 
             <Link href="#">
                 <a class="card">Projeto 2</a>
-            </Link>
+            </Link> */}
 
             <Link href="https://github.com/samufacanha2">
-                <a class="card">GitHub</a>
-            </Link>
+            <a className="card">
+            <img src="/icons/Github.png" className="imgGrande" />
+              {' GitHub'}
+              <p>
+              github.com/samufacanha2
+              </p>
+            </a>
+          </Link>
+
+            <Link href="https://gitlab.com/samufacanha2">
+            <a className="card">
+            <img src="/icons/Gitlab.svg" className="imgGrande" />
+              {' Gitlab'}
+              <p>
+              gitlab.com/samufacanha2
+              </p>
+            </a>
+          </Link>
 
             <Link href="/">
-                <a class="card">Home</a>
-            </Link>
+            <a className="card">
+            <img src="/icons/Home.svg" className="imgGrande" />
+              {' Home'}
+              <p>
+                <br />
+              </p>
+            </a>
+          </Link>
             
         </div>
     </div>
