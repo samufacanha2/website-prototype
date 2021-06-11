@@ -28,12 +28,12 @@ export default function Home() {
             </a>
           </Link>
 
-            <Link href="https://gitlab.com/samufacanha2">
+            <Link href="https://gitlab.com/samuelfacanha2">
             <a className="card">
             <img src="/icons/Gitlab.svg" className="imgGrande" />
               {' Gitlab'}
               <p>
-              gitlab.com/samufacanha2
+              gitlab.com/samuelfacanha2
               </p>
             </a>
           </Link>
